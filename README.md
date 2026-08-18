@@ -4,29 +4,29 @@
   <img src="Report/Working Detection.png" alt="Working Detection" width="800"/>
 </div>
 
-## 📖 Overview
+## Overview
 This project provides robust computer vision scripts for detecting and tracking sports balls in video feeds. It is highly optimized for **Basketballs** and **Footballs**, utilizing a hybrid approach of color-based segmentation, motion detection, shape analysis, and Kalman filtering to maintain accurate tracking even during occlusions.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-Sport Support**: Specialized profiles and color ranges for basketballs and footballs.
 - **Robust Tracking**: Kalman filtering combined with appearance modeling for smooth trajectory estimation.
 - **Occlusion Handling**: The tracker is designed to maintain track of the ball even when it is temporarily blocked by players or objects.
 - **Real-Time Visualization**: Watch the tracking happen live with bounding boxes, trajectory lines, and ID labels.
 
-### 🏀 Basketball Tracking
+### Basketball Tracking
 <div align="center">
   <img src="Report/Basketball Tracking.png" alt="Basketball Tracking" width="800"/>
 </div>
 
-### ⚽ Football Tracking
+### Football Tracking
 <div align="center">
   <img src="Report/Football Tracking.png" alt="Football Tracking" width="800"/>
 </div>
 
-### 🛡️ Occlusion Handling
+### Occlusion Handling
 The system elegantly handles situations where the ball is occluded.
 <div align="center">
   <img src="Report/Occlusion (1).png" alt="Occlusion 1" width="400"/>
@@ -35,7 +35,7 @@ The system elegantly handles situations where the ball is occluded.
 
 ---
 
-## 🛠️ Requirements & Installation
+## Requirements & Installation
 
 The project relies on standard computer vision libraries in Python.
 
@@ -48,7 +48,7 @@ pip install opencv-python numpy scipy
 
 ---
 
-## 🚀 Usage Guide
+## Usage Guide
 
 The project includes two main scripts: `detection_tracker.py` for general detection and `Ball_Tracker.py` which is highly specialized for specific sports.
 
@@ -90,7 +90,7 @@ python detection_tracker.py --video [VIDEO_PATH] --mode [MODE] --output [OUTPUT_
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 Our tracking system uses a multi-stage pipeline:
 
@@ -101,7 +101,7 @@ Our tracking system uses a multi-stage pipeline:
 
 ---
 
-## ⚙️ Customization & Troubleshooting
+## Customization & Troubleshooting
 
 If you are testing on your own footage and facing issues, consider adjusting these parameters in `Ball_Tracker.py`:
 
