@@ -1,4 +1,4 @@
-# 🎾 Ball Detection and Tracking
+# Adaptive Object Localization and Tracking Across Scales and Occlusions
 
 <div align="center">
   <img src="Report/Working Detection.png" alt="Working Detection" width="800"/>
